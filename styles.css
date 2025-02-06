@@ -1,0 +1,197 @@
+#navbar-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 10vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-height: 30vh;
+    min-width: 100px;
+} 
+
+#section-flex {
+    display: flex;
+    margin: 1rem;
+    gap: .5rem
+}
+
+main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 64vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#will {
+    flex: 1 1 auto;
+    margin: 1rem;
+}
+
+#will-button:hover {
+    text-shadow: 1px 1px #d42020;
+}
+
+p {
+    margin: 1rem
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 1rem;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background: rgba(51, 62, 65, 0.743);
+}
+
+p {
+    font-family: "Nitti";
+    font-size: 17px;
+    text-shadow: 1px 1px #4c2cc3;
+    margin-top: 0
+}
+
+a {
+    text-decoration: none;
+    color: #28146f
+}
+
+button {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Nitti", sans-serif;
+    background: none;
+    border: none
+    }
+
+.first-letter {
+    color: rgba(26, 38, 41, 0.743);
+}
+
+.not-first-letter {
+    color: black;
+}
+
+button:hover {
+    text-shadow: 1px 1px #4c2cc3;
+}
+
+
+@media (max-width: 499px) {
+    .navbar-flex {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 0
+    }
+
+    #will {
+        text-align: center;
+        align-self: center;
+        margin-bottom: 0
+    }
+
+    #section-flex {
+        justify-content: flex-end;
+        margin-top: 0;
+        gap: .4rem
+}
+}
+
+/*** WHO PAGE ***/
+
+#who-p {
+    text-shadow: none;
+    font-family: 'Code New Roman', sans-serif;
+    text-align: center;
+    max-width: 450px;
+}
+
+#who-section button {
+    text-shadow: 1px 1px #4c2cc3;
+}
+
+@media (max-width: 481px) {
+    #who-p {
+        max-width: 200px
+    }
+}
+
+
+/*** WORKS PAGE ***/
+
+#works-p {
+    text-shadow: none;
+    font-size: 35px;
+    text-align: center;
+}
+
+#works-section button {
+    text-shadow: 1px 1px #4c2cc3;
+}
+
+
+/*** WRITE PAGE ***/
+
+#write-section button {
+    text-shadow: 1px 1px #371b9b
+}
+
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    background-color: rgba(62, 61, 73, 0.743);
+    padding: 8px; /* Some padding */ 
+    border: 1px solid #110a0a; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input, select, textarea {
+    color: rgb(226, 211, 211)
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgba(26, 38, 41, 0.743);
+    color: rgb(201, 202, 214);
+    padding: 12px 20px;
+    border: 1px solid #110a0a;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #2d1a71;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    max-width: 450px;
+    font-family: "nitti";
+}
+
+.write-first-letter {
+    color: rgb(168, 157, 157)
+}
+
+.write-not-first-letter {
+    color: rgb(205, 187, 187);
+}
