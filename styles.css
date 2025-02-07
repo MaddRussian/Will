@@ -35,7 +35,7 @@ main {
 
 p {
     margin: 1rem;
-    font-family: "Code New Roman";
+    font-family: "Code New Roman", sans-serif;
     font-size: 17px;
     text-shadow: 1px 1px #4c2cc3;
     margin-top: 0
