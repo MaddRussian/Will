@@ -34,7 +34,11 @@ main {
 }
 
 p {
-    margin: 1rem
+    margin: 1rem;
+    font-family: "Code New Roman";
+    font-size: 17px;
+    text-shadow: 1px 1px #4c2cc3;
+    margin-top: 0
 }
 
 #footer {
@@ -50,12 +54,6 @@ body {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(9, 9, 9, .85));
 }
 
-p {
-    font-family: "Nitti";
-    font-size: 17px;
-    text-shadow: 1px 1px #4c2cc3;
-    margin-top: 0
-}
 
 a {
     text-decoration: none;
