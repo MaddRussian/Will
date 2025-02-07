@@ -139,7 +139,7 @@ button:hover {
 /*** WRITE PAGE ***/
 
 #write-section button {
-    text-shadow: 1px 1px #371b9b
+    text-shadow: 1px 1px #4c2cc3;
 }
 
 input[type=text], textarea {
