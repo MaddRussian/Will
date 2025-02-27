@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: linear-gradient(#11222f, #0c1216, #1b1d1e);
+    color: rgb(179, 171, 171)
+}
+
+
+#header {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 44px;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-weight: 300;
+    letter-spacing: .3rem;
+
+}
+
+#box {
+    width: 100%;
+    height: 84vh;
+    padding: 5px;
+    border: 2px solid rgb(102, 92, 92);
+    background: radial-gradient(at top left,#385c74,#263b44,#1c2124,#242d31)
+}
+
+
+#subheader {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 141px
+}
+
+h2 {
+    padding: 5px;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: .2rem;
+    border-bottom: 1px solid #3a6a8b;
+}
+
+ul {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    list-style: none;
+    flex: 1 1 auto;
+}
+
+
+li {
+   padding: 5px;
+   margin-right: 10px;
+   width: 140px;
+   text-align: center;
+   font-family: 'PP Neue Montreal', sans-serif;                               
+   font-size: 14px;
+   letter-spacing: .2rem;
+   border-bottom: 1px solid #4d5051;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(179, 171, 171);
+}
+
+li:hover {
+    border-bottom: 1px solid #3a6a8b;
+}
+
+#socials-navbar {
+    margin-top: 25px;
+    
+}
+
+#socials-navbar li {
+    padding-top: 6px;
+    padding-bottom: 1px
+}
+
+
+p {
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-size: 14px;
+    letter-spacing: .15rem;
+    
+}
+
+/**** Info Page ****/
+
+#info {
+    border-bottom: 1px solid #3a6a8b;
+}
+
+.info-section p{
+    text-align: left;
+    max-width: 200px;
+    min-width: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+    line-height: 1.3rem;
+    padding-left: 10px;
+    border-left: .5px solid #3a6a8b;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+/*** Projects Page ***/
+
+#projects {
+    border-bottom: 1px solid #3a6a8b
+}
