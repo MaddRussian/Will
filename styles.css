@@ -4,9 +4,12 @@
     padding: 0;
 }
 
+html {
+    height: 100%
+}
 
 body {
-    height: 100vh;
+    height: 100%;
     padding-left: 60px;
     padding-right: 60px;
     background: linear-gradient(#11222f, #0c1216, #1b1d1e);
@@ -108,9 +111,6 @@ p {
     }
     h1 {
         font-size: 36px;
-    }
-    #box {
-        height: 88vh;
     }
 }
 
