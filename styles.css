@@ -4,12 +4,9 @@
     padding: 0;
 }
 
-html {
-    height: 100%;
-}
+
 
 body {
-    position: fixed;
     height: 100vh;
     padding-left: 60px;
     padding-right: 60px;
@@ -111,6 +108,9 @@ p {
     }
     h1 {
         font-size: 36px;
+    }
+    #box {
+        height: 75vh
     }
 }
 
